@@ -7,7 +7,7 @@ salespeople in a company. Sales are entered as integer values. It then prints ou
 for each salesperson and the total number of sales. Study the code, then compile and run the program to see 
 how it works. 
 
-As you complet this lab you should be able to run the `main` method as well as `SalesTest.java` to test your program. 
+As you complete this lab you should be able to run the `main` method as well as `SalesTest.java` to test your program. 
 
 Now modify the program as follows:
 1.  a) Complete the `average` method to compute and return the average of `arr`.  Be sure to use the length instance 
@@ -58,16 +58,65 @@ Complete the `ShoppingCart` class by doing the following:
     loop print a "Please pay ..." message with the total price of the items in the cart.
 
 3.  Use the following test data to test your program. Note the following example has 4 items (quantity of each items is 
-    a different value):
+    a different value): The total should be 20.10
     
-    Item | Quantity | Price
-    :----:|:---------:|------:
-    milk|2|3.56
-    donuts|12|0.47
-    bread|1|4.24
-    oranges|5|0.62
+Item | Quantity | Price
+:----:|:---------:|------:
+milk|2|3.56
+donuts|12|0.47
+bread|1|4.24
+oranges|5|0.62
+
+
+Sample Output
+
+      Would you like to go shopping? (yes or no)
+      yes
+      What would you like to buy?
+      milk
+      How much does it cost?
+      3.56
+      How many do you want?
+      2
+      Would you like to get anything else? (yes or no)
+      yes
+      What would you like to buy?
+      donuts
+      How much does it cost?
+      0.47
+      How many do you want?
+      12
+      Would you like to get anything else? (yes or no)
+      yes
+      What would you like to buy?
+      bread
+      How much does it cost?
+      4.24
+      How many do you want?
+      1
+      Would you like to get anything else? (yes or no)
+      yes
+      What would you like to buy?
+      oranges
+      How much does it cost?
+      0.62
+      How many do you want?
+      5
+      Would you like to get anything else? (yes or no)
+      no
+      
+      Shopping Cart
+      Item                Price  Quantity    Total
+      milk                 3.56         2      7.12
+      donuts               0.47        12      5.64
+      bread                4.24         1      4.24
+      oranges              0.62         5      3.10
+      
+      Total Price: $20.10
     
-    > Please Pay $20.10
+    
+    
+
 
 ___
 ## 6.3 Flexible Shopping Cart
@@ -159,8 +208,9 @@ defined in the Deck of Cards lab.
 ![Poker Hand Rankings](poker-hand-rankings.png)
 
 Modify the program as follows:
-1. Modify the program `DeckOfCardsTest` to deal a five card poker hand into an array named `hand[]`. Then modify class 
-`DeckOfCards` to include methods that determine whether a hand contains (pass the `hand[]` array to the method):
+1. Modify the program `DeckOfCardsTest` to deal a five card poker hand into a Card array named `hand`. Then modify class 
+`DeckOfCards` to include methods that determine whether a hand contains (pass the `hand` array to the method) one of the 
+following combinations of Cards:
     
     a. a pair
     
