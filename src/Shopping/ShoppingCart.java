@@ -17,15 +17,19 @@ public class ShoppingCart
     private int itemCount;      // total number of items in the cart
     private double totalPrice;  // total price of items in the cart
     private int capacity;       // current cart capacity
+    //TODO 1a) Declare a cart instance variable
+
 
     /**
      * Creates an empty shopping cart with a capacity of 5 items
      */
     public ShoppingCart()
     {
-	capacity = 5;
-	itemCount = 0;
-	totalPrice = 0.0;
+        capacity = 5;
+        itemCount = 0;
+        totalPrice = 0.0;
+        //TODO 1a) Initialize the cart instance variable to the appropriate size
+
     }
 
     /**
@@ -36,7 +40,16 @@ public class ShoppingCart
      */
     public void addToCart(String itemName, double price, int quantity)
     {
+        //TODO 1b) Complete the addToCart method
 
+    }
+
+    //TODO 2b) Complete the getter method getTotalPrice. Remember the getter should not print anything.
+
+
+    public int getCartLength()
+    {
+        return cart.length;
     }
 
 
@@ -49,10 +62,16 @@ public class ShoppingCart
 	NumberFormat fmt = NumberFormat.getCurrencyInstance();
 
 	String contents = "\nShopping Cart\n";
-	contents += "\nItem\t\tUnit Price\tQuantity\tTotal\n";
+	contents += String.format("%-15s%10s%10s%10s","Item","Price","Quantity","Total\n");
+
 
 	for (int i = 0; i < itemCount; i++)
+	{
 	    //contents += cart[i].toString() + "\n";
+        contents += String.format("%-15s%10.2f%10d%10.2f\n",cart[i].getName(),cart[i].getPrice(), cart[i].getQuantity(),
+                                                            (cart[i].getPrice()*cart[i].getQuantity()));
+
+    }
 
 	contents += "\nTotal Price: " + fmt.format(totalPrice);
 	contents += "\n";
