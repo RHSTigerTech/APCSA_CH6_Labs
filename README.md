@@ -2,7 +2,7 @@
 
 ## 6.1 Tracking Sales
 
-Open `Sales.java`. 'Sales.java` contains a Java program that prompts for and reads in the sales for each of 5 
+Open `Sales.java`. `Sales.java` contains a Java program that prompts for and reads in the sales for each of 5 
 salespeople in a company. Sales are entered as integer values. It then prints out the id and amount of sales 
 for each salesperson and the total number of sales. Study the code, then compile and run the program to see 
 how it works. 
