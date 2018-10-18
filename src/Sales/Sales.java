@@ -42,7 +42,7 @@ public class Sales
         sum = 0;
         for (int i=0; i < sales.length; i++)
         {
-            System.out.println("\t " + i + "\t\t\t" + sales[i]);
+            System.out.println("\t " + (i+1) + "\t\t\t" + sales[i]);
             sum += sales[i];
         }
 
