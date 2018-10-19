@@ -161,7 +161,7 @@ pepsi|1|2.45
 ___
 ## 6.4 Shopping Cart Using the ArrayList Class
 
-In this exercise you will modify `ShoppingCart` to use the `ArrayList` class. Create a new project and copy the file 
+In this exercise you will modify `ShoppingCart` to use the `ArrayList` class. Create a new package and copy the file 
 `Item.java` from the previous lab. The class named `Item` models an item one would purchase. An item has a name, price,
 and quantity (thequantitypurchased). Copy `ShoppingCart.java` into `ShoppingCart3.java`. Copy `ShopTest.java` into 
 `ShopTest3.java` and modify to use the `ShoppingCart3` class.
