@@ -1,4 +1,4 @@
-#Chapter 6 Array Labs
+# Chapter 6 Array Labs
 
 ## 6.1 Tracking Sales
 
