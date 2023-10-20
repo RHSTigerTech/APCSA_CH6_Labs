@@ -1,5 +1,10 @@
 # Chapter 6 Array Labs
 
+## 6.0 Basics 
+
+Follow along and complete the `Basics.java` in class. This should cover the basics of Arrays.
+
+
 ## 6.1 Tracking Sales
 
 Open `Sales.java`. `Sales.java` contains a Java program that prompts for and reads in the sales for each of 5 
