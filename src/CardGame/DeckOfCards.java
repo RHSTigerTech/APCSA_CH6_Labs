@@ -15,7 +15,7 @@ public class DeckOfCards {
     private Card deck[];
     private int currentCard;
     private final int NUMBER_OF_CARDS = 52;
-    private String faces[] = {"Ace", "Deuce", "Three", "Four", "Five", "Six",
+    private String faces[] = {"Ace", "Two", "Three", "Four", "Five", "Six",
             "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"};
     private String suits[] = { "Hearts", "Diamonds", "Clubs", "Spades" };
 
