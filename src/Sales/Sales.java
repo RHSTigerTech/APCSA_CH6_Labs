@@ -9,7 +9,6 @@ package Sales;
  * Reads in and stores sales for each of 5 salespeople.  Displays
  * sales entered by salesperson id and total sales for all salespeople.
  */
-import sun.jvm.hotspot.oops.Array;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -34,8 +33,8 @@ public class Sales
             System.out.print("Enter sales for salesperson " + (i + 1) + ": ");
             sales[i] = scan.nextInt();
         }
-        //print the array for verification
-        //System.out.println(Arrays.toString(sales));
+        // print the array for verification
+        // System.out.println(Arrays.toString(sales));
 
         System.out.println("\nSalesperson   Sales");
         System.out.println("--------------------");
