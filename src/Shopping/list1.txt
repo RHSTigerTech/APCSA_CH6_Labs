@@ -1,0 +1,17 @@
+  yes
+  milk
+  3.56
+  2
+  yes
+  donuts
+  0.47
+  12
+  yes
+  bread
+  4.24
+  1
+  yes
+  oranges
+  0.62
+  5
+  no
